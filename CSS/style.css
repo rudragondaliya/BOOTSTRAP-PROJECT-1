@@ -1,0 +1,24 @@
+*{
+    font-family: 'Jost';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul li:last-child {
+    border-color: #5758e0 !important;
+    
+}
+
+nav ul li:last-child:hover{
+    background-image: linear-gradient(to right, blue, rgb(13, 167, 218));
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(50, 181, 233) !important;
+}
+
+#last-list a:hover{
+    color: white !important;
+}
