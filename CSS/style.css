@@ -22,3 +22,24 @@ nav ul li a:hover{
 #last-list a:hover{
     color: white !important;
 }
+
+.carousel-item{
+    background: url(/IMG/banner-img.jpg),rgb(0, 0, 0,0.7);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    background-blend-mode: color-burn;
+}
+
+.container-content{
+    padding: 100px;
+    background-image: linear-gradient(to left, #55b4d4, currentColor);
+    background-clip: text;
+    color: transparent;
+    color:  #3b7dda;
+}
+
+.carousel-item a{
+    background-color: #5758e0;
+    color: white;
+}
