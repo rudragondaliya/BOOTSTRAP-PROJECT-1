@@ -24,22 +24,69 @@ nav ul li a:hover{
 }
 
 .carousel-item{
-    background: url(/IMG/banner-img.jpg),rgb(0, 0, 0,0.7);
+    background: url(/IMG/banner-img.jpg),rgb(0, 0, 0,0.8);
     background-size: cover;
     background-position: center;
     height: 600px;
     background-blend-mode: color-burn;
+    position: relative;
 }
 
 .container-content{
-    padding: 100px;
+    padding: 130px;
     background-image: linear-gradient(to left, #55b4d4, currentColor);
     background-clip: text;
     color: transparent;
     color:  #3b7dda;
+
 }
 
 .carousel-item a{
-    background-color: #5758e0;
+    background-color: #1c67df;
     color: white;
+}
+
+.carousel-control-prev{
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 50% !important;
+    position: absolute !important;
+    top: 270px !important;
+    left: 5% !important;
+    background-color: #5758e0 !important;
+    color: #55b4d4 !important;
+    
+}
+
+.carousel-control-next{
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 50% !important;
+    position: absolute !important;
+    top: 270px !important;
+    right:5% !important;
+    background-color: #5758e0 !important;
+    color: #55b4d4 !important;
+}
+
+.container-content a:hover{
+    background-image: linear-gradient(to right, blue, rgb(13, 167, 218));
+    color: white;
+}
+
+
+
+.services{
+    padding: 120px;
+
+}
+
+.col-4 .services-item:first-child a::before{
+    height: 150px !important;
+    width: 300px !important;
+    position: absolute !important;
+    top: -20px !important;
+    left: -20px !important;
+    z-index: -1 !important;
+    background-image:linear-gradient(to left, #55b4d4, #5758e0) !important;
 }
