@@ -85,20 +85,20 @@ nav ul li a:hover{
 .services .col-4:first-child .services-item a::before{
     position: absolute;
     top: -20px;
-    left:-20px;
+    left:-10px;
     background-image: linear-gradient(to right,blue,lightblue);
     content: '';
-    width: 80%;
+    width: 60%;
     height: 60%;
     z-index: -1;
 }
 .services .col-4:last-child .services-item a::before{
     position: absolute;
-    right: -20px;
+    right: -10px;
     bottom: -20px;
     background-image: linear-gradient(to right,blue,lightblue);
     content: '';
-    width: 80%;
+    width: 60%;
     height: 60%;
     z-index: -1;
 }
@@ -106,11 +106,16 @@ nav ul li a:hover{
 
 .services-item:hover{
     background-image: linear-gradient(to right,blue,lightblue);
-    color: white;
+    transform: translateY(-10px);
+    transition: 0.2s;
 }
 
 .services-item:hover a .mycard{
     color: white !important;
+}
+
+.services-item:hover a::before{
+    display: none;
 }
 
 .about-content span{
@@ -141,8 +146,9 @@ nav ul li a:hover{
     background-image: linear-gradient(to right, #5758e0, lightseagreen) !important;
   }
   
-  .list-1 i {
+  .icon i {
     background-image: linear-gradient(to right, #5758e0, lightseagreen);
     background-clip: text;
     color: transparent;
   }
+
