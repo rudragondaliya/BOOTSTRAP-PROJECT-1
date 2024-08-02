@@ -11,7 +11,7 @@ nav ul li:last-child {
 }
 
 nav ul li:last-child:hover{
-    background-image: linear-gradient(to right, blue, rgb(13, 167, 218));
+    background-image: linear-gradient(to right,#5758e0,#56a8d6);
     color: white;
 }
 
@@ -34,7 +34,7 @@ nav ul li a:hover{
 
 .container-content{
     padding: 130px;
-    background-image: linear-gradient(to left, #55b4d4, currentColor);
+    
     background-clip: text;
     color: transparent;
     color:  #3b7dda;
@@ -70,7 +70,7 @@ nav ul li a:hover{
 }
 
 .container-content a:hover{
-    background-image: linear-gradient(to right, blue, rgb(13, 167, 218));
+    background-image: linear-gradient(to right,#5758e0,#56a8d6);
     color: white;
 }
 
@@ -86,7 +86,7 @@ nav ul li a:hover{
     position: absolute;
     top: -20px;
     left:-10px;
-    background-image: linear-gradient(to right,blue,lightblue);
+    background-image: linear-gradient(to right,#5758e0,#56a8d6);
     content: '';
     width: 60%;
     height: 60%;
@@ -96,7 +96,7 @@ nav ul li a:hover{
     position: absolute;
     right: -10px;
     bottom: -20px;
-    background-image: linear-gradient(to right,blue,lightblue);
+    background-image: linear-gradient(to right,#5758e0,#56a8d6);
     content: '';
     width: 60%;
     height: 60%;
@@ -105,7 +105,8 @@ nav ul li a:hover{
 
 
 .services-item:hover{
-    background-image: linear-gradient(to right,blue,lightblue);
+    background-image: linear-gradient(to right,#5758e0,#56a8d6);
+    /* background-image: linear-gradient(to right,blue,lightblue); */
     transform: translateY(-10px);
     transition: 0.2s;
 }
@@ -126,19 +127,21 @@ nav ul li a:hover{
 }
 
 
+
+
+/* abilites */
+
+.abilites {
+    background-color: #111111;
+  }
+
+  
 .abilites-txt{
     width: 50px;
     height: 5px;
     display: inline-block;
     background:  linear-gradient(to right,blue,lightblue) !important;
 }
-
-
-/* abilites */
-
-.abilities {
-    background-color: rgb(17, 17, 17);
-  }
   
   .content-txt span  {
     width: 50px;
@@ -152,3 +155,6 @@ nav ul li a:hover{
     color: transparent;
   }
 
+/* F E A T U R E S */
+
+ 
