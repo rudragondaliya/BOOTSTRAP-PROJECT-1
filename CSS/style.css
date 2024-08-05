@@ -249,5 +249,24 @@ nav ul li a:hover{
 }
 
 
-   
+   /* testinomial */
 
+   .testinomial-title{
+       padding-top: 100px;
+   }
+
+   .bi-star{
+    background-image: linear-gradient(to right, #5758e0, lightseagreen);
+    background-clip: text;
+    color: transparent;
+   }
+
+   .testinomail-card:hover{
+    background-image: linear-gradient(to right, #5758e0, lightseagreen) !important;
+    transform: translateY(-10px);
+    transition: 0.3s;
+   }
+
+   .testinomail-card:hover .mytestinomail{
+    color:white !important;
+   }
