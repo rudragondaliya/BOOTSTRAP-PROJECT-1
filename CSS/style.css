@@ -305,12 +305,22 @@ nav ul li a:hover{
     background-image: linear-gradient(to right, #5758e0, lightseagreen) !important;
    }
 
-   .bi-play-circle{
+   .play-2{
     background-image: linear-gradient(to right, #5758e0, lightseagreen);
-    background-clip: text;
-    color: transparent;
-    font-size: 80px;
+    height: 100px;
+    width: 100px;
     position: absolute;
     bottom: 30px;
     right: 40px;
    }
+
+    .play-2>.bi-play{
+    font-size: 80px;
+    position: absolute;
+    top: -7px;
+    left: 15px;
+    color: white;
+
+
+   }
+
