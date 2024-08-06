@@ -34,7 +34,6 @@ nav ul li a:hover{
 
 .container-content{
     padding: 130px;
-    
     background-clip: text;
     color: transparent;
     color:  #3b7dda;
@@ -269,4 +268,49 @@ nav ul li a:hover{
 
    .testinomail-card:hover .mytestinomail{
     color:white !important;
+   }
+
+   .talk-inner span{
+    width: 50px;
+    height: 5px;
+    display: inline-block;
+    background:  linear-gradient(to right,blue,lightblue) !important;
+   }
+
+
+   /* talk */
+
+   .talk{
+    padding: 180px;
+   }
+   
+   ::placeholder{
+    color: grey !important;
+   }
+
+   .talk-sec-img{
+    height: 500px !important;
+   }
+
+   .field{
+    height: 50px;
+   }
+
+   .submit{
+    background-color: #1c67df !important;
+    padding: 10px !important;
+   }
+
+   .submit:hover{
+    background-image: linear-gradient(to right, #5758e0, lightseagreen) !important;
+   }
+
+   .bi-play-circle{
+    background-image: linear-gradient(to right, #5758e0, lightseagreen);
+    background-clip: text;
+    color: transparent;
+    font-size: 80px;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
    }
