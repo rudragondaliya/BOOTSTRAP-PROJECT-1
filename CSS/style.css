@@ -320,7 +320,45 @@ nav ul li a:hover{
     top: -7px;
     left: 15px;
     color: white;
-
-
    }
 
+
+   /* contact-us */
+
+   .contact-us{
+    background-color: #1b1919;
+   }
+
+
+   .contact-us .col-4:first-child .services-item a::before{
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    background-image: linear-gradient(to right,#5758e0,#56a8d6);
+    content: '';
+    width: 60%;
+    height: 60%;
+    z-index: -1;
+   }
+
+
+
+   .contact-us .col-4:last-child .services-item a::before{
+    position: absolute;
+    right: -10px;
+    bottom: -20px;
+    background-image: linear-gradient(to right,#5758e0,#56a8d6);
+    content: '';
+    width: 60%;
+    height: 60%;
+    z-index: -1;
+   }
+
+
+/* copyright */
+
+.content ul li span{
+    background-image: linear-gradient(to right, #5758e0, lightseagreen);
+    background-clip: text;
+    color: transparent;
+}
