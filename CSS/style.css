@@ -54,6 +54,7 @@ nav ul li a:hover{
     left: 5% !important;
     background-color: #5758e0 !important;
     color: #55b4d4 !important;
+    display: none !important;
     
 }
 
@@ -66,6 +67,7 @@ nav ul li a:hover{
     right:5% !important;
     background-color: #5758e0 !important;
     color: #55b4d4 !important;
+    display: none !important;
 }
 
 .container-content a:hover{
@@ -76,7 +78,7 @@ nav ul li a:hover{
 
 
 .services{
-    padding: 120px;
+    padding:100px  0px;
 
 }
 
@@ -100,6 +102,7 @@ nav ul li a:hover{
     width: 60%;
     height: 60%;
     z-index: -1;
+    
 }
 
 
