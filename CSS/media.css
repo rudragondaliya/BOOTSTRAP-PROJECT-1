@@ -1,13 +1,14 @@
 @media(min-width:576px) {
-  
+  .icon{
+       flex-direction: column !important;
+       text-align: center !important;
+  }     
+ 
 }
 
 @media(min-width:768px) {
-    .icon{
-        flex-direction: column  !important;
-        text-align: center !important;
-       }
-}
+       
+   }
 
 
 @media(max-width:992px) {
