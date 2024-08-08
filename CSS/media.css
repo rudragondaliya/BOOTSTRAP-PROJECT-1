@@ -1,9 +1,12 @@
-@media(max-width:576px) {
-   
+@media(min-width:576px) {
+  
 }
 
-@media(max-width:768px) {
-    
+@media(min-width:768px) {
+    .icon{
+        flex-direction: column  !important;
+        text-align: center !important;
+       }
 }
 
 
