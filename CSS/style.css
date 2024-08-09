@@ -78,7 +78,7 @@ nav ul li a:hover{
 
 
 .services{
-    padding:100px  0px;
+    padding:100px 0px;
 
 }
 
@@ -296,9 +296,9 @@ nav ul li a:hover{
     margin-top: 40px;
    }
 
-   .field{
+   /* .field{
     height: 50px;
-   }
+   } */
 
    .submit{
     background-color: #1c67df !important;
