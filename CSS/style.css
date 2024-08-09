@@ -232,7 +232,7 @@ nav ul li a:hover{
 
 .play{
     position: absolute;
-    left: 39%;
+    left: 42%;
     top: 20%;
 
 }
@@ -284,7 +284,7 @@ nav ul li a:hover{
    /* talk */
 
    .talk{
-    padding: 180px;
+    padding: 50px;
    }
    
    ::placeholder{
@@ -293,6 +293,7 @@ nav ul li a:hover{
 
    .talk-sec-img{
     height: 500px !important;
+    margin-top: 40px;
    }
 
    .field{
@@ -314,7 +315,7 @@ nav ul li a:hover{
     width: 100px;
     position: absolute;
     bottom: 30px;
-    right: 40px;
+    right: 120px;
    }
 
     .play-2>.bi-play{
@@ -333,7 +334,7 @@ nav ul li a:hover{
    }
 
 
-   .contact-us .col-4:first-child .services-item a::before{
+   .contact-us .col-lg-6:first-child .services-item a::before{
     position: absolute;
     left: -10px;
     top: -20px;
@@ -346,7 +347,7 @@ nav ul li a:hover{
 
 
 
-   .contact-us .col-4:last-child .services-item a::before{
+   .contact-us .col-lg-6:last-child .services-item a::before{
     position: absolute;
     right: -10px;
     bottom: -20px;
