@@ -1,8 +1,18 @@
-@media(min-width:576px) {
+@media(max-width:576px) {
   .icon{
-       flex-direction: column !important;
-       text-align: center !important;
+       flex-direction: column;
+       text-align: center;
   }     
+
+  .play{
+    position: absolute !important;
+    left: 85px !important;
+  }
+
+  .play-2{
+    position: absolute;
+    left: 140px;
+  }
     
 }
 
@@ -11,13 +21,17 @@
    }
 
 
-@media(max-width:992px) {
+@media(min-width:992px) {
+  .icon{
+    flex-direction: row;
+    text-align: left;
+  }
 }
 
 
-@media(max-width:1200px) {
+@media(min-width:1200px) {
 
 }
-@media(max-width:1400px) {
+@media(min-width:1400px) {
 
 }
